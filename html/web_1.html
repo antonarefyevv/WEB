@@ -2,9 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Первая страничка</title>
 </head>
 <body>
+<h1>Первая страничка</h1>
+<p><b><i>Выделенный курсив</i></b></p>
+<hr>
+<a href="http://localhost:63342/WEB/web/web_2.html?_ijt=o44dlafbnjo1o4ph8harmhmsnn&_ij_reload=RELOAD_ON_SAVE">Ссылка
+    на вторую
+    страничку</a>
+<hr>
+<pre>
+    тестируем форматирование
+        тестируем форматирование
+</pre>
+<textarea>Многострочное поле ввода Многострочное поле ввода</textarea>
+<br>
+<form action="/handler.php" method="post">
+    <label for="client-name">Ваше имя</label>
+    <input type="text" value="Иван" id="client-name" name="clientName">
+    <button type="submit">Кнопка</button>
+</form>
 
+<p><b><i>Радио-баттоны</i></b></p>
+<label><input type="radio" value="1" name="myRadio"> 1</label>
+<label><input type="radio" value="2" name="myRadio"> 2</label>
+<label><input type="radio" value="3" name="myRadio"> 3</label>
+<p><b><i>Чекбоксы</i></b></p>
+<label><input type="checkbox" value="1" name="mycheckbox"> 1 </label>
+<label><input type="checkbox" value="2" name="mycheckbox"> 2 </label>
+<br>
+<p><b><i>Выпадающие списки</i></b></p>
+<select name="Фрукты" multiple>
+    <option value="1">Яблоко</option>
+    <option value="2">Банан</option>
+    <option value="3">Груша</option>
+    <option value="4">Мандарин</option>
+    <option value="5">Ананас</option>
+    <option value="6">Апельсин</option>
+    <option value="7">Грейпфрут</option>
+    <option value="8">Манго</option>
+</select>
+<br>
+<select name="colors">
+  <option value="1">Синий</option>
+  <option value="2" selected>Зеленый</option>
+  <option value="3">Желтый</option>
+  <option value="4">Красный</option>
+  <option value="5">Оранжевый</option>
+  <option value="6">Черный</option>
+</select>
 </body>
 </html>
