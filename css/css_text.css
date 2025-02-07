@@ -1,0 +1,42 @@
+body {
+    font-family: Helvetica; /* или любой другой шрифт на ваш вкус */
+    background-color: #F5DEB3; /* Light beige - примерный цвет фона */
+    margin: 0;
+    padding: 20px;
+}
+
+.course-info {
+    max-width: 800px; /* Чтобы контент не растягивался на всю ширину экрана */
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #676565; /* Темно-серый цвет текста */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #378DB2; /* Синеватый оттенок для заголовков */
+}
+
+p {
+    line-height: 1.5; /* Межстрочный интервал для удобства чтения */
+    margin-bottom: 10px;
+    color: #555; /* Серый цвет для основного текста */
+    text-indent: 1em;
+}
+
+strong {
+    font-weight: bold;
+    color: #378DB2;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888; /* Светло-серый для зачеркнутой цены */
+    margin-right: 5px;
+}
